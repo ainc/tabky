@@ -1,0 +1,12 @@
+name: Tech Association of the Bluegrass
+url: https://www.tabky.org
+description: "Learn to Code in Lexington, Kentucky"
+author: Awesome Inc
+google_verification: 
+highlighter: rouge
+permalink: /blog/:year/:month/:day/:title/
+gems:
+  - jekyll-redirect-from
+  - jekyll-sitemap
+exclude: [node_modules]
+# Useful info, update here for sitewide usage
