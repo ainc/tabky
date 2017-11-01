@@ -249,7 +249,7 @@ header.hamburger-header { width: auto; }
 
 .navbar-brand img { transition: all .3s; max-height: 7rem; }
 
-.tab-logo { max-height: 7rem; }
+.tab-logo { max-height: 7rem; overflow: hidden; }
 
 .navbar.navbar-inner { min-height: inherit; }
 
