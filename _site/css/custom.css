@@ -627,6 +627,8 @@ header .icon-top.nav > li > a i { display: block; text-align: center; font-size:
 
 .bg-transparent .icon-menu li i { color: #F9F9F9 !important; }
 
+.scroll-css .navbar-brand img { max-height: 4rem; }
+
 @media (min-width: 769px) { header.fixed-top.scroll-css .icon-menu .navbar-collapse ul.nav > li > a > i { font-size: 25px !important; height: 25px; line-height: 25px; transition: all .3s; }
   header.fixed-top.scroll-css .icon-menu:not(.icon-menu-top) .navbar-collapse ul.nav i.onlycover { width: 25px !important; } }
 .icon-menu .navbar-brand { height: 90px; }
