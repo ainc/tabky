@@ -60,7 +60,7 @@ i.circle, i.square, .social-group i.circle, .social-button i.circle, .header-bas
 }
 
 .section-bg-color .table > tbody > tr > td, .social-button i.circle {
-    border-color: #51afaf !important;
+    border-color: #3358A5 !important;
 }
 
 .white .quote-author, .white .icon-list .list-item i {
@@ -89,7 +89,7 @@ div.adv-img-side-content p {
 
 @media (max-width: 992px) {
     header.bg-transparent .navbar-default .navbar-nav > li.active > a {
-        color: #51afaf !important;
+        color: #3358A5 !important;
     }
 }
 
@@ -821,7 +821,7 @@ header .social-group a i.fa {
 }
 
 .flex-control-paging li a.flex-active, .flex-control-paging li a:hover {
-    background-color: #87d0d0;
+    background-color: rgb(93, 135, 218);
 }
 
 .flex-control-paging li a {
