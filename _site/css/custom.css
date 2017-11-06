@@ -26,7 +26,7 @@ body, .adv-img p, .caption-bottom p, .adv-circle .caption p, .advs-box p, .list-
 
 #preloader { position: fixed; top: 0; left: 0; right: 0; bottom: 0; background-color: #fff; z-index: 99995; }
 
-#preloader:after { content: ''; width: 200px; height: 200px; position: absolute; left: 50%; top: 50%; background-image: url(images/assets/loader.gif); background-repeat: no-repeat; background-position: center; margin: -100px 0 0 -100px; z-index: 999999999999; }
+#preloader:after { content: ''; width: 200px; height: 200px; position: absolute; left: 50%; top: 50%; background-image: url(/images/assets/loader.gif); background-repeat: no-repeat; background-position: center; margin: -100px 0 0 -100px; z-index: 999999999999; }
 
 .scroll-top-mobile { position: fixed; background: #fff; width: 50px; height: 50px; z-index: 995; right: 10px; bottom: 10px; text-align: center; bottom: 10px; cursor: pointer; padding: 15px 0; visibility: hidden; opacity: 0; }
 
