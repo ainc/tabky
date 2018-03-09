@@ -7476,3 +7476,13 @@ html.iex .img-box img {
 html.iex .footer-parallax {
     z-index: 0;
 }
+
+/*
+==============================
+TABLES
+==============================
+*/
+.table-striped > tbody > tr:nth-of-type(odd) {
+    background-color: #f2f7ff;
+}
+
