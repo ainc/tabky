@@ -3,6 +3,7 @@ title: Contact
 layout: default
 ---
 
+
 <div class="section-map box-middle-container full-screen-size" data-sub-height="100">
     <div class="google-map" data-address="via bettin 234, italy" data-zoom="8" data-marker-pos="col-md-6-right" data-marker-top="50"
         data-marker="http://templates.framework-y.com/minimal/images/marker-map.png"></div>
@@ -24,7 +25,7 @@ layout: default
                         </div>
                     </div>
                     <hr class="space s" />
-                    <form action="http://www.framework-y.com/scripts/php/contact-form.php" class="form-box form-ajax" method="post">
+                    <!-- <form action="https://formspree.io/info@tabky.org" class="form-box form-ajax" method="post">
                         <div class="row">
                             <div class="col-md-4">
                                 <input id="name" name="name" placeholder="name" type="text" class="form-control form-value" required>
@@ -39,19 +40,17 @@ layout: default
                         <hr class="space xs" />
                         <div class="row">
                             <div class="col-md-12">
-                                <textarea id="messagge" name="messagge" placeholder="messagge" class="form-control form-value" required></textarea>
+                                <textarea id="message" name="message" placeholder="message" class="form-control form-value" required></textarea>
                                 <hr class="space s" />
+                                <input type="hidden" name="_subject" value="Contact Us form submission"/>
+                                <input type="text" name="_gotcha" style="display:none"/> 
                                 <button class="anima-button btn-xs btn" type="submit">
-                                    <i class="im-mailbox-empty"></i>Send message</button>
+                                    <i class="im-mailbox-empty"></i>Send message
+                                </button>
+                                <p class="form-complete" style="display:none">Thank you for your submission. </p>
                             </div>
                         </div>
-                        <div class="success-box">
-                            <div class="alert alert-success">Congratulations. Your message has been sent successfully</div>
-                        </div>
-                        <div class="error-box">
-                            <div class="alert alert-warning">Error, please retry. Your message has not been sent</div>
-                        </div>
-                    </form>
+                    </form> -->
                 </div>
             </div>
         </div>
