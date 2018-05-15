@@ -4,7 +4,7 @@ description: "TAB exists to support and promote software technology among area s
 author: Awesome Inc
 google_verification: 
 highlighter: rouge
-permalink: /blog/:year/:month/:day/:title/
+permalink: /blog/:title/
 plugins:
   - jekyll-redirect-from
   - jekyll-sitemap
