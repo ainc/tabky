@@ -15,31 +15,31 @@ layout: default
 <div class="section-empty">
     <div class="container content">
         <hr class="space m" />
-        <table class="table table-striped">
-            <thead>
-                <tr>
-                    <th>Group</th>
-                    <th>Link</th>
-                    <th>Topic</th>
-                    <th>Organizer</th>
-                    <th>Location</th>
-                    <th>Email</th>
-                    <th>Schedule</th>
-                </tr>
-            </thead>
-            <tbody>
-                {% for meetup in site.data.meetups %}
-                <tr>
-                    <td>{{ meetup.Group }}</td>
-                    <td>{% if meetup.Link %}<a href="{{ meetup.Link }}" target="_blank"><i class="im-double-tap" style="font-size: 24px;"></i></a>{% endif %}</td>
-                    <td>{{ meetup.Topic }}</td>
-                    <td>{{ meetup.Organizer }}</td>
-                    <td>{{ meetup.Location }}</td>
-                    <td>{{ meetup.Email }}</td>
-                    <td>{{ meetup.Schedule }}</td>
-                </tr>
-                {% endfor %}
-            </tbody>
-        </table>
+        <div class="table-responsive">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Group</th>
+                        <th>Link</th>
+                        <th>Topic</th>
+                        <th>Organizer</th>
+                        <th>Location</th>
+                        <th>Schedule</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for meetup in site.data.meetups %}
+                    <tr>
+                        <td>{{ meetup.Group }}</td>
+                        <td>{% if meetup.Link %}<a href="{{ meetup.Link }}" target="_blank"><i class="im-double-tap" style="font-size: 24px;"></i></a>{% endif %}</td>
+                        <td>{{ meetup.Topic }}</td>
+                        <td>{{ meetup.Organizer }}</td>
+                        <td>{{ meetup.Location }}</td>
+                        <td>{{ meetup.Schedule }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
     </div>
 </div>

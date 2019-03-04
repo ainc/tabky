@@ -1,10 +1,10 @@
 name: Tech Association of the Bluegrass
 url: https://www.tabky.org
-description: "Learn to Code in Lexington, Kentucky"
+description: "TAB exists to support and promote software technology among area students and professionals through events, education, and advocacy."
 author: Awesome Inc
 google_verification: 
 highlighter: rouge
-permalink: /blog/:year/:month/:day/:title/
+permalink: /blog/:title/
 plugins:
   - jekyll-redirect-from
   - jekyll-sitemap

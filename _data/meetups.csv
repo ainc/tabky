@@ -1,18 +1,18 @@
-Group,Link,Topic,Organizer,Location,Email,Schedule
-RunJumpDev,https://www.meetup.com/RunJumpDev/,Game Development,John Meister,Awesome Inc,john@supersoul.co,Tuesdays/6:00pm
-Central KY Wordpress,https://www.meetup.com/Central-KY-WordPress-Users/,WP development,Ronald Headley,Beaumont Library,,Last Monday of the month/7:00
-CKYMUG (Central Kentucky Microsoft User Group),https://ckymug.wordpress.com/,Microsoft user training,Jeremy Miller,Awesome Inc,jeremy.miller@outlook.com,3rd Friday of each month 11:30am (lunch provided)
-Kentucky Javascript Users Group,https://www.meetup.com/Kentucky-JavaScript-Users-Group/,Javascript,Ron Northrip,Library,ron.northrip@gmail.com,Every 3 mths on the 3rd Thursday (2/15/2018 next one)/7:00pm
-Shift Design Group,http://www.shiftdesigngroup.com/,UX/UI,Meredith Moore,Various,meredith@shiftdesigngroup.com,monthly meetups dates and times Vary
-Tableau User group,https://community.tableau.com/groups/lexington,"Tableau, Data Science",Alex Dixon,Awesome Inc,e.alex.dixon@gmail.com,Once per quarter/Various dates and times
-Lexington Young Professionals - tech connect,http://lexypa.org/,Tech professional dev,Kirsten Shusteric,Various,kirsten@wineandcanvas.com,Various days/times
-Bluegrass Developers Guild,https://www.meetup.com/The-Bluegrass-Developers-Guild/,Software Development,Joe Blankenship,Awesome Inc,joe@cgrii.org,2nd Tuesday of each month/6:00pm
-Data + Women,,Women in Tech,Michelle Combs,Various,michelle.combs@uky.edu,
-Lexington PASS,,SQL (Power BI),Matt Gordon,Blue Stallion (various),xandotiger@yahoo.com,2nd Tuesday of the month/6:30pm
-Bluegrass Data Scientist Group,https://www.meetup.com/Bluegrass-Data-Science-Group/,Data Science,Joe Blakenship,MakeTime,joe@cgrii.org,4th Thursday of each month/6:00pm
-KY PHP Users Group,https://www.meetup.com/Kentucky-PHP-Users-Group/,PHP,Ron Northrip,Central Public Library,ron.northrip@gmail.com,Last Thursday of each month/7:00pm
-Ruby,,Ruby on Rails ,John Martinez,MakeTime,johndavidmartinez1@gmail.com,2nd Tuesday of every month/6:00pm
-Health Tech Lex,https://www.meetup.com/Health-Tech-Lex/,Health Technology,Gary Ditsch,Various,gary@ventre.tech,Once per month/Various dates and times
-Scratch Educators,https://www.meetup.com/ScratchEd-Lexington/,Tech Education,Leanna Prater,,,
-Lexington Blockchain,https://www.meetup.com/Lexington-Blockchain/,Blockchain and cryptocurrency,,,,
-Lex UX,https://www.meetup.com/Lex-UX/,"UI, Design",Smith Shwartz,Various,smithschwartz@gmail.com,Various days/times throughout the year
+Group,Link,Topic,Location,Schedule,Organizer
+RunJumpDev,https://www.meetup.com/RunJumpDev,Game Development,Awesome Inc,Tuesdays/6:00pm,John Meister
+Central KY Wordpress,https://www.meetup.com/Central-KY-WordPress-Users/,WP development,Beaumont Library,Last Monday of the month/7:00,Ronald Headley
+CKYMUG (Central Kentucky Microsoft User Group),https://ckymug.wordpress.com/,Microsoft user training,Awesome Inc,3rd Friday of each month 11:30am (lunch provided),Jeremy Miller
+Kentucky Javascript Users Group,https://www.meetup.com/Kentucky-JavaScript-Users-Group/,Javascript,Library,Every 3 mths on the 3rd Thursday (2/15/2018 next one)/7:00pm,Ron Northrip
+Shift Design Group,http://www.shiftdesigngroup.com/,Design,various,monthly meetups dates and times vary,Meredith Moore
+Tableau User group,https://community.tableau.com/groups/lexington,"Tableau, Data Science",Awesome Inc,Once per quarter/various dates and times,Alex Dixon
+Lexington Young Professionals - tech connect,http://lexypa.org/,Tech professional dev,various,various days/times,Kirsten Shusteric
+Bluegrass Developers Guild,https://www.meetup.com/The-Bluegrass-Developers-Guild/,Software Development,Awesome Inc,2nd Tuesday of each month/6:00pm,Joe Blankenship
+Data + Women,,Women in Tech,various,,Michelle Combs
+Lexington PASS,,SQL (Power BI),Blue Stallion (various),2nd Tuesday of the month/6:30pm,Matt Gordon
+Bluegrass Data Scientist Group,https://www.meetup.com/Bluegrass-Data-Science-Group/,Data Science,MakeTime,4th Thursday of each month/6:00pm,Joe Blakenship
+KY PHP Users Group,https://www.meetup.com/Kentucky-PHP-Users-Group,PHP,Central Public Library,Last Thursday of each month/7:00pm,Ron Northrip
+Ruby,https://www.meetup.com/Lexington-Ruby-Meetup/,Ruby,MakeTime,2nd Tuesday of each month/6:00pm,John Martinez
+Health Tech Lex,https://www.meetup.com/Health-Tech-Lex/,Health Technology,various,Once per month/various dates and times,Gary Ditsch
+Scratch Educators,https://www.meetup.com/ScratchEd-Lexington/,Tech Education,Awesome Inc,,Leanna Prater
+Lexington Blockchain,https://www.meetup.com/Lexington-Blockchain/,Blockchain and cryptocurrency,Base 110,1st Wednesday of each month/5:30pm,Shane Hadden
+Lex UX,https://www.facebook.com/groups/1025420100870418/,"UX, Design",Various,Various days/times throughout the year,Smith Shwartz
