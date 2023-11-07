@@ -26,7 +26,7 @@ layout: default
                 <tbody>
                     {% for company in site.data.companies %}
                     <tr>
-                        <td>{{ company.Company }}</td>
+                        <td>{% if company.Website %}<a class="text-primary" href="{{ company.Website }}" target="_blank">{{ company.Company }}</a>{% endif %}</td>
                         <td>{% if company.Website %}<a href="{{ company.Website }}" target="_blank"><i class="im-double-tap" style="font-size: 24px;"></i></a>{% endif %}</td>
                     </tr>
                     {% endfor %}
