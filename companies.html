@@ -1,0 +1,37 @@
+---
+title: Companies
+layout: default
+---
+
+<div class="header-title white ken-burn" data-parallax="scroll" data-position="top" data-natural-height="550" data-natural-width="1920"
+    data-image-src="">
+    <div class="container">
+        <div class="title-base">
+            <hr class="anima" />
+            <h1>Tech Companies in Central Kentucky</h1>
+        </div>
+    </div>
+</div>
+<div class="section-empty">
+    <div class="container content">
+        <hr class="space m" />
+        <div class="table-responsive">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Company</th>
+                        <th>Website</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for company in site.data.companies %}
+                    <tr>
+                        <td>{{ company.Company }}</td>
+                        <td>{% if company.Website %}<a href="{{ company.Website }}" target="_blank"><i class="im-double-tap" style="font-size: 24px;"></i></a>{% endif %}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
