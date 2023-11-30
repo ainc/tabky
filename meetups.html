@@ -15,7 +15,7 @@ layout: default
 <div class="section-empty">
     <div class="container content">
         <hr class="space m" />
-        <div class="table-responsive-lg">
+        <div class="table-responsive">
             <table class="table table-striped">
                 <thead class="hidden-sm">
                     <tr>
@@ -30,18 +30,18 @@ layout: default
                 <tbody>
                     {% for meetup in site.data.meetups %}
                     <tr>
-                        <th class="hidden-md hidden-lg hidden-xl">Group</th>
-                        <td>{{ meetup.Group }}</td>
-                        <th class="hidden-md hidden-lg hidden-xl">Link</th>
-                        <td>{% if meetup.Link %}<a href="{{ meetup.Link }}" target="_blank"><i class="im-double-tap" style="font-size: 24px;"></i></a>{% endif %}</td>
-                        <th class="hidden-md hidden-lg hidden-xl">Topic</th>
-                        <td>{{ meetup.Topic }}</td>
-                        <th class="hidden-md hidden-lg hidden-xl">Organizer</th>
-                        <td>{{ meetup.Organizer }}</td>
-                        <th class="hidden-md hidden-lg hidden-xl">Location</th>
-                        <td>{{ meetup.Location }}</td>
-                        <th class="hidden-md hidden-lg hidden-xl">Schedule</th>
-                        <td>{{ meetup.Schedule }}</td>
+                        <th class="hidden-md hidden-lg hidden-xl">Group: {{meetup.Group}}</th>
+                        <td class="hidden-sm">{{ meetup.Group }}</td>
+                        <td class="hidden-md hidden-lg hidden-xl">{% if meetup.Link %} Link: <a href="{{ meetup.Link }}" target="_blank"><i class="im-double-tap" style="font-size: 24px;"></i></a> {% endif %}</td>
+                        <td class="hidden-sm">{% if meetup.Link %}<a href="{{ meetup.Link }}" target="_blank"><i class="im-double-tap" style="font-size: 24px;"></i></a>{% endif %}</td>
+                        <td class="hidden-md hidden-lg hidden-xl">Topic: {{ meetup.Topic }}</td>
+                        <td class="hidden-sm">{{ meetup.Topic }}</td>
+                        <td class="hidden-md hidden-lg hidden-xl">Organizer: {{meetup.Organizer}}</td>
+                        <td class="hidden-sm">{{ meetup.Organizer }}</td>
+                        <td class="hidden-md hidden-lg hidden-xl">Location: {{meetup.Location}}</td>
+                        <td class="hidden-sm">{{ meetup.Location }}</td>
+                        <td class="hidden-md hidden-lg hidden-xl">Schedule: {{meetup.Schedule}}</td>
+                        <td class="hidden-sm">{{ meetup.Schedule }}</td>
                     </tr>
                     {% endfor %}
                 </tbody>
